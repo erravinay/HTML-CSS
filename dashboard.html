@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            background-color: brown;
+            display: flex;
+        }
+        .child1{
+            width: 25%;
+            height: 100%;
+            background-color: black;
+            
+        }
+        .child2{
+            width: 75%;
+            height: 100%;
+            background-color: coral;
+         
+           
+            justify-content: flex-start;
+            align-self: flex-end;
+        }
+        .subchild1{
+            border: 2px solid black;
+            width: 100%;
+            height: 6%;
+            background-color: grey;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .subchild2{
+           
+            width: 100%;
+            height: 40%;
+            background-color: gray;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .subchild3{
+           
+            width: 100%;
+            height: 54%;
+            background-color: grey;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+           
+           
+        }
+        *{
+                box-sizing: border-box ;;
+            }
+        .a{
+            border: 0px solid black;
+            width: 50%;
+            height: 80%;
+            background-color: white;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 5px;
+           
+           
+
+        }
+        .b{
+            border: 0px solid black;
+            width: 50%;
+            height: 80%;
+            background-color: white;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+        }
+        .x{
+            border: 0px solid black;
+            width: 25%;
+            height: 80%;
+            background-color: blue;  
+            padding: 20px; 
+            box-shadow: 5px 5px 5px black;
+        }
+        .y{
+            border: 0px solid black;
+            width: 25%;
+            height: 80%;
+            background-color: green; 
+            padding: 20px;  
+            box-shadow: 5px 5px 5px black;
+        }
+        .z{
+            border: 0px solid black;
+            width: 25%;
+            height: 80%;
+            background-color: red;
+            padding: 20px;
+            box-shadow: 5px 5px 5px black;
+        }
+        .j{
+            border: 1px solid black;
+            width: 40%;
+            height: 80%;
+            background-color: white;
+            
+        }
+        .k{
+            border: 0px solid black;
+            width: 40%;
+            height: 65%;
+            background-color: white;    
+        }
+        .search{
+            border: 2px solid black;
+        }
+        .sign{
+            border: 2px solid black;
+        }
+        .b1{
+            color: white;
+            
+        }
+        .b2{
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            color: white;
+            text-align: right;
+            margin-bottom: 40%;
+        }
+        .b3{
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            color: white;
+            text-align: right;
+            margin-top: 40%;
+        }
+        .c1{
+            color: white;
+            
+        }
+        .c2{
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            color: white;
+        }
+        .d1{
+            color: white;
+            
+        }
+        .d2{
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            color: white;
+        }
+        .imghead1{
+            width: 100%;
+            height: 15%;
+            background-color:grey;
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .imghead2{
+            width: 100%;
+            height: 100%;
+            background-color: white;
+        }
+        .not1{
+            width: 100%;
+            height: 15%;
+            background-color:grey;
+            border: 1px solid black;
+        }
+        .not2{
+            width: 100%;
+            height: 25%;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .lef1{
+            width: 100%;
+            height: 10%;
+            color: white;
+            background-color: black;
+            font-size: 50px;
+        }
+        .lef2{
+            width: 100%;
+            height: 5%;
+            color: white;
+            font-size: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">
+            <div class="lef1"><label><b>Spur</b></label></div>
+            <div class="lef2">
+                <label>Dashboard</label>
+            </div>
+            <div class="lef2">
+                <label>Charts</label>
+                <select></select>
+            </div>
+            <div class="lef2">
+                <label>Components</label>
+                <select></select>
+            </div>
+            <div class="lef2">
+                <label>Layouts</label>
+                <select></select>
+            </div>
+            <div class="lef2">
+                <label>About</label>
+                <select></select>
+            </div>
+        </div>
+        <div class="child2"> 
+            <div class="subchild1">
+                <div class="a">
+                    <input type="text" placeholder="search box" class="search">
+                    
+                </div>
+                <div class="b">
+                    <input type="text" placeholder="sign out" class="sign" >
+                </div>
+            </div>
+            <div class="subchild2">
+                <div class="x">
+                    <label class="b1"><b>Signs ups</b></label>
+
+
+                    <H1 class="b3">114</H1>
+                    <H6 class="b2">+25% from last month</H6>
+                </div>
+                <div class="y">
+                    <label class="c1"><b>revenue</b></label>
+                 
+
+
+                    <H1 class="b3">$25,541</H1>
+                    <H6 class="b2">+17.5% from last month</H6>
+                </div>
+                <div class="z">  <label class="d1"><b>Open tickets</b></label>
+                    
+
+                   
+
+
+                    <H1 class="b3">5</H1>
+                   </div>
+            </div>
+            <div class="subchild3">
+                <div class="j"> 
+                    <div class="imghead1"> <label><b>BAR CHART</b> </label>
+                    <select></select></div>
+
+                    
+                   <div class="imghead2"><img src="https://www150.statcan.gc.ca/edu/power-pouvoir/c-g/c-g05-2-1-eng.png" width="100%" height="100%" >
+                  </div>
+                </div>
+                <div class="k">
+                    <div class="not1"><label> <b>Notifications</b></label></div>
+                    <div class="not2">
+                     <label>NEW COMMENT </label>
+                         <LABEL>21 days ago</LABEL> </div>
+                         <div class="not2">
+                            <label>NEW COMMENT </label>
+                                <LABEL>21 days ago</LABEL> </div>
+                                <div class="not2">
+                                    <label>NEW COMMENT </label>
+                                        <LABEL>21 days ago</LABEL> </div>
+                                        <div class="not2">
+                                            <label><ins>show all</ins></label></div>
+                                        
+
+                       
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

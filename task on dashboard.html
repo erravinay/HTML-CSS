@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        } */
+        .parent{
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .subparent{
+            width: 90%;
+            height: 90%;
+            background-color: red;
+            display: flex;
+            
+        }
+        .child1{
+            width: 25%;
+            height: 100%;
+            background-color: white;
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+        }
+        .child2{
+            width: 75%;
+            height: 100%;
+            background-color: grey;
+        }
+        .subchild1{
+            width: 100%;
+            height: 20%;
+            background-color: grey;
+            /* margin-top: 0; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .subchild2{
+            width: 100%;
+            height: 40%;
+            background-color: grey;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .subchild3{
+            width: 100%;
+            height: 40%;
+            background-color: grey ;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .p{
+            color: aqua;
+        }
+        .b{
+            background-color: blueviolet;
+            color: white;
+            border-radius: 5px;
+        }
+        .x{
+            width: 30%;
+            height: 90%;
+            border: 0px solid black;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px black;
+
+        }
+        .y{
+            width: 30%;
+            height: 90%;
+            border: 0px solid black;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px black;
+
+
+        }
+        .z{
+            width: 30%;
+            height: 90%;
+            border: 0px solid black;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px black;
+
+
+        }
+        .j{
+            width: 60%;
+            height: 90%;
+            border: 0px solid black;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px black;
+        }
+        .k{
+            width: 30%;
+            height: 90%;
+            border: 0px solid black;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px black;
+        }
+        .top1{
+            width: 60%;
+            height: 15%;
+            border: 10px solid aqua;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+           
+        }
+        .i{
+            border-radius: 50%;
+            
+        }
+        .hr{
+            color: aqua;
+            
+        }
+        .L{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .l{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+         
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="subparent">
+            <div class="child1">
+                <div class="top1">
+                    <img src="https://image.shutterstock.com/image-photo/silhouette-photo-muscular-man-working-260nw-1918669847.jpg" width="100%" height="100%" class="i">
+                </div>
+                <div><h3><b>Ken Kalil</b></h3>
+                <p>kenik@gmail.com</p></div>
+                <div class="hr"><hr></div>
+                <div class="L">DASHBOARD</div>
+                <DIV class="L">ACCOUNT PROFILE</DIV>
+                <div class="L">EXERCISE PLANS</div>
+                <div class="L">DIET PLANS</div>
+                <div class="L">SUBSCRIPTION</div>
+                <div class="L">EXTRA SERVICES</div>
+                <div><hr></div>
+                <div class="l"><button class="p"><b>LOG OUT</b></button></div>
+            </div>
+            <div class="child2"> 
+                <div class="subchild1">
+                    <p class="p"><b>PERSONAL PROGRESS</b></p>
+                      <button class="b">CONTACT SUPPORT</button>  
+                </div>
+                <div class="subchild2"> 
+                    <div class="x">
+                        <img src="https://image.shutterstock.com/image-photo/silhouette-photo-muscular-man-working-260nw-1918669847.jpg" width="100%" height="100%">
+                    </div>
+                    <div class="y">
+                        <img src="https://www.kalaari.com/wp-content/uploads/2021/08/1_R6kKjK-543gm5ovWt5Grfg.png" width="100%" height="100%">
+                    </div>
+                    <div class="z">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEAJ6I13fAx7ZyWwGw6iNOd1knw0bvX8l_Kw&usqp=CAU" width="100%" height="100%">
+                    </div>
+
+                </div>
+                <div class="subchild3">
+                    <div class="j">
+                        <img src="https://www.lifewire.com/thmb/rdj7RbgmtmF41C8lQTwaA2gAi5s=/1920x1080/smart/filters:no_upscale()/how-does-fitbit-calculate-calories-01-5fba00a0504f4f7aaf14fa4ce91678c8.jpg" width="100%" height="100%">
+                    </div>
+                    <div class="k">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpYGvLTVWpbx8TnkFTgtc-PAH4hlhxIkp29giQMIsOJF1dEnFVDPpF4HJt7G23LsD4TMw&usqp=CAU" width="100%" height="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
